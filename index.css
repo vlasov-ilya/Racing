@@ -1,0 +1,17 @@
+.cars{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.c1, .c2{
+  width: 4.5rem;
+}
+
+.road {
+  border: solid 1.5px black ;
+  background-image: url(/finish.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
