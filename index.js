@@ -104,7 +104,7 @@ minus.onclick = function() {
 let speedCar = (car, c) => {
   margin = 0
   let interval = setInterval(() => {
-    speed = Math.random()
+    speed = Math.random()*10
     margin = margin + speed
     car.style.marginLeft = margin + '%'
   
@@ -121,7 +121,7 @@ let speedCar = (car, c) => {
       
   }
 
-  }, 10)
+  }, 1000)
 }
 
 
